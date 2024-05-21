@@ -5,12 +5,15 @@
         android:icon="@drawable/ic_home_24"
         android:title="Home" />
     <item
-        android:id="@+id/hotelFragment"
-        android:icon="@drawable/ic_hotel_24"
-        android:title="Hotel" />
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/ic_notification_24"
+        android:title="Notification" />
     <item
-        android:id="@+id/ticketFragment"
-        android:icon="@drawable/ic_ticket_24"
-        android:title="Ticket" />
-
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/likeFragment"
+        android:icon="@drawable/ic_like_24"
+        android:title="Like" />
 </menu>

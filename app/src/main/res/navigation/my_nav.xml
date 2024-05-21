@@ -11,13 +11,18 @@
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/hotelFragment"
-        android:name="com.mkrdeveloper.bottomnavigationexample2.HotelFragment"
-        android:label="Hotel"
-        tools:layout="@layout/fragment_hotel" />
+        android:id="@+id/notificationFragment"
+        android:name="com.mkrdeveloper.bottomnavigationexample2.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
     <fragment
-        android:id="@+id/ticketFragment"
-        android:name="com.mkrdeveloper.bottomnavigationexample2.TicketFragment"
-        android:label="Ticket"
-        tools:layout="@layout/fragment_ticket" />
+        android:id="@+id/profileFragment"
+        android:name="com.mkrdeveloper.bottomnavigationexample2.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.mkrdeveloper.bottomnavigationexample2.LikeFragment"
+        android:label="Like"
+        tools:layout="@layout/fragment_like" />
 </navigation>
